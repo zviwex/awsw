@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo '[+] Installing aws2-wrap'
-pip install aws2-wrap
+python3 -m pip install aws2-wrap
 
 echo '[+] Installing awsw'
 mkdir -p ~/.awsw
